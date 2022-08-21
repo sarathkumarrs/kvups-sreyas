@@ -102,6 +102,19 @@ color: white;
     padding-left: 60px;
     
 }
+.overlay{
+    height: 100%;
+    max-width: 40%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: rgb(36, 102, 187) ;
+    background-color: rgba(21, 131, 182, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}    
 
 
 
@@ -111,19 +124,7 @@ color: white;
     .frontright{grid-column: span 1;}
     .pagelinks{ display: none;}
     .ham{display: block;}
-    .overlay{
-        height: 100%;
-        max-width: 40%;
-        position: fixed;
-        z-index: 1;
-        top:0;
-        right: 0;
-        background-color: rgb(36, 102, 187) ;
-        background-color: rgba(21, 131, 182, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-
-    }    
+   
     .options a { gap: 20px;
     color: beige;}
     .mini{grid-column: span 3;}
@@ -135,4 +136,7 @@ color: white;
     .minir{
        padding-left: 2px;
     }
+   a:hover, .offcanvas a:focus {
+        color: #a7babb;
+      }
 }
