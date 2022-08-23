@@ -32,10 +32,10 @@ color: #555;
     display: none;
 }
 
-.color{
+#color{
     background: green;
     border-radius: 12px;
-    color:white;
+    color:white ;
     width: 95px;
     height: 26px;
     text-align: center;
@@ -62,7 +62,7 @@ a
     margin: 8px;
     font-family: 'nunitoregular', Arial, Helvetica, sans-serif;
 font-size: 14px;
-color: black;
+color: #555;
 }
 .pagelinks {
     grid-column: span 3;
@@ -125,6 +125,13 @@ color: white;
 .mini p{
     width: 413px;
 }
+
+.last{ text-align: center;
+background-color: #43434f;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;}
+
     /* header footer ends here  */
 
  /* body content starts here  */
