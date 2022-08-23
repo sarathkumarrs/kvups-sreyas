@@ -2,6 +2,10 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
+    font-size: small;
 }
 
 
@@ -30,10 +34,10 @@
     background: green;
     border-radius: 12px;
     color: aliceblue;
-    width: 108px;
-    height: 40px;
+    width: 95px;
+    height: 26px;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 8px;
     display: inline-block;
 }
 .leftlogo{
@@ -115,6 +119,11 @@ color: white;
     transition: 1s;
 
 }    
+.mini p{
+    width: 413px;
+}
+    
+
 
 
 
