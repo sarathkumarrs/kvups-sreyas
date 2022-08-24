@@ -31,9 +31,12 @@ color: #555;
 .ham{
     display: none;
 }
+.fb{
+    color: blue;
+}
 
 #color{
-    background: green;
+    background:#7eb244;
     border-radius: 12px;
     color:white ;
     width: 95px;
@@ -43,9 +46,8 @@ color: #555;
     display: inline-block;
 }
 
-
 .leftlogo{
-    color: green;
+    color: #7eb244;
     grid-column: span 1 ;
 }
 a
@@ -54,7 +56,7 @@ a
     text-decoration: none;
     /* color: black;  */
 }
-.footer a{
+.fhead a{
     color: white;
 }
 .pagelinks a {
@@ -69,17 +71,26 @@ color: #555;
 
 
 }
-.footer{
+.fhead{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background: linear-gradient(90deg,rgb(74, 223, 74) 0%,rgb(140, 231, 140) 40%,rgb(92, 226, 92) 80%);
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
     
 }
 .frontright{
     text-align: right;
+    padding-right: 20px;
 }
+#fb {
+    color: blue;
+}
+#gplus{color:red;}
+
 .links{
     display: grid;
     grid-column: span 2;
@@ -107,6 +118,7 @@ color: white;
 }
 .close1{
     padding-left: 60px;
+    filter: invert(1);
     
 }
 .overlay{
@@ -162,7 +174,8 @@ padding-bottom: 20px;}
     .pagelinks{ display: none;}
     .ham{display: block;}
    
-    .options a { gap: 20px;
+    .options a { gap: 40px;
+        margin: 10px;
     color: beige;}
     .mini{grid-column: span 3;}
     .lastdetails{text-align: center;}
@@ -180,6 +193,8 @@ padding-bottom: 20px;}
       .greenbox{grid-column: span 2;
         width: 80%;
         ;}
+        .ylink{width: 90%;}
+      
                  
 }
 
@@ -206,6 +221,7 @@ padding-bottom: 20px;}
 .major p{ max-width: 350px;
     padding-top: 5px;
     line-height: 20px;
+    text-align: justify;
 
   
 }
@@ -283,5 +299,52 @@ background-color:#009688;;
 .i{
     width: 10%;
     background-color: #9C27B0;
+}
+
+/* gallery page starts here  */
+.subgall{
+    font-weight: 400px;
+    font-size: large;
+    margin: 15px auto;
+
+    color: #555;
+}
+#gallcolor{
+    color: rgb(107, 216, 107);
+}
+.toplink1{
+    border: 1px solid rgb(27, 124, 27);
+    max-width: 350px;
+    display: flex;
+    margin: 15px auto;
+}
+.images1{display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+padding: 50px;;
+
+}
+.images1 img{
+    
+    width: 100%;
+    margin: 15px auto;
+
+}
+.images1 a{
+    text-decoration: none;
+    font-size:small;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+    font-family: 'american_captainregular';
+}
+.youtube{
+    margin-left: 50px;
+}
+.ythead{
+    text-align: center;
+    margin: 20px;
+    font-family: 'american_captainregular';
+
 }
 
