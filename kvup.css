@@ -27,6 +27,7 @@ color: #555;
     backdrop-filter: blur(20px);
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 .ham{
     display: none;
