@@ -191,7 +191,8 @@ padding-bottom: 20px;}
       }
       .major{ grid-column: span 3;}
       .greenbox{grid-column: span 2;
-        width: 80%;
+        width: 81%;
+       
         ;}
         .ylink{width: 90%;}
       
@@ -347,4 +348,5 @@ padding: 50px;;
     font-family: 'american_captainregular';
 
 }
+
 
