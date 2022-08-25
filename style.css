@@ -267,4 +267,16 @@ h4{
 }
 .white{
     background-image: url(https://kvups.in/images/countdown-bg.jpg);
+    background-size: cover;
+}
+.black{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.bw h4 span{
+    color: white;
+}
+.bw h4{
+    color: white;
 }
