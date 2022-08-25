@@ -2,9 +2,15 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
+    font-family: 'nunitoregular', Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #555;
 }
 
-
+/* header and fotter starts here */
 
 .container{
     padding-left: 30px;
@@ -21,47 +27,71 @@
     backdrop-filter: blur(20px);
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 .ham{
     display: none;
 }
+.fb{
+    color: blue;
+}
 
-.color{
-    background: green;
+#color{
+    background:#7eb244;
     border-radius: 12px;
-    color: aliceblue;
-    width: 108px;
-    height: 40px;
+    color:white ;
+    width: 95px;
+    height: 26px;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 8px;
     display: inline-block;
 }
+
 .leftlogo{
-    color: green;
+    color: #7eb244;
     grid-column: span 1 ;
 }
 a
 {
 
     text-decoration: none;
+    /* color: black;  */
+}
+.fhead a{
+    color: white;
+}
+.pagelinks a {
+
     margin: 8px;
-    color: black;
+    font-family: 'nunitoregular', Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #555;
 }
 .pagelinks {
     grid-column: span 3;
 
+
 }
-.footer{
+.fhead{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background: linear-gradient(90deg,rgb(74, 223, 74) 0%,rgb(140, 231, 140) 40%,rgb(92, 226, 92) 80%);
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
     
 }
 .frontright{
     text-align: right;
+    padding-right: 20px;
 }
+#fb {
+    color: blue;
+}
+#gplus{color:red;}
+
 .links{
     display: grid;
     grid-column: span 2;
@@ -79,17 +109,6 @@ color: white;
     padding-right: 270px;
 
 }
-.minir{
-   padding-left: 318px;
-}
-.last{
-    background: #43434f;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 
 
 
@@ -100,6 +119,7 @@ color: white;
 }
 .close1{
     padding-left: 60px;
+    filter: invert(1);
     
 }
 .overlay{
@@ -115,8 +135,38 @@ color: white;
     transition: 1s;
 
 }    
+.mini p{
+    width: 413px;
+}
 
+.last{ text-align: center;
+background-color: #43434f;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;}
 
+    /* header footer ends here  */
+
+ /* body content starts here  */
+
+ .spot{
+    background-image:url(https://kvups.in/images/inner-spotlight-bg.jpg);
+    background-size: cover;
+    height: 260px;
+    color: white;
+    text-align: center;
+    background-position: center;
+
+ }
+ .spot h1{
+    padding-top: 109px;
+    font-size: 40px;
+ }
+ @media screen and (max-width: 900px){
+    .greenbox{grid-column: span 2;
+        width: 80%;}
+
+ }
 
 @media screen and (max-width: 600px){
 
@@ -125,7 +175,8 @@ color: white;
     .pagelinks{ display: none;}
     .ham{display: block;}
    
-    .options a { gap: 20px;
+    .options a { gap: 40px;
+        margin: 10px;
     color: beige;}
     .mini{grid-column: span 3;}
     .lastdetails{text-align: center;}
@@ -139,4 +190,164 @@ color: white;
    a:hover, .offcanvas a:focus {
         color: #a7babb;
       }
+      .major{ grid-column: span 3;}
+      .greenbox{grid-column: span 2;
+        width: 81%;
+       
+        ;}
+        .ylink{width: 90%;}
+      
+                 
 }
+
+
+/* acadamics and achievements page starts her  */
+.sub1{ display: flex;
+    background-color: rgb(231, 230, 230);
+    max-width: 360px;
+    font-size: large;
+       }
+.sub1 img{
+    max-width: 160px;
+}
+.sub1 h4 {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+.subcolor{
+    color:rgb(34, 133, 34);
+    margin-top: 40px;
+}
+.major p{ max-width: 350px;
+    padding-top: 5px;
+    line-height: 20px;
+    text-align: justify;
+
+  
+}
+.major{
+    margin: 30px;
+       
+}
+.majorhead{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* it ends here  */
+ /* acadamics starts here  */
+
+ .a{
+    width: 10%;
+background-color: orange;
+
+}
+.greenbox{
+    border: 1px solid green;
+    display: flex;
+   margin: 45px;
+   height: 550px;
+    
+
+}
+.colorbox{
+    text-align: center;
+    line-height: 20px;
+    padding-top: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+}
+
+.act{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.b{
+    
+        width: 10%;
+    background-color: rgb(50, 168, 207);
+    
+    }
+
+.c{
+    width: 10%;
+background-color:#009688;;
+
+}    
+.d{
+    width: 10%;
+    background-color: #00BCD4;
+}
+.e{  width: 10%;
+    background-color: #3F51B5;
+
+}
+.f{
+    width: 10%;
+    background-color: #673AB7;
+}
+.g{
+    width: 10%;
+    background-color: #F44336;
+}
+.h{ 
+    width: 10%;
+    background-color: #E91E63;
+}
+
+.i{
+    width: 10%;
+    background-color: #9C27B0;
+}
+
+/* gallery page starts here  */
+.subgall{
+    font-weight: 400px;
+    font-size: large;
+    margin: 15px auto;
+
+    color: #555;
+}
+#gallcolor{
+    color: rgb(107, 216, 107);
+}
+.toplink1{
+    border: 1px solid rgb(27, 124, 27);
+    max-width: 350px;
+    display: flex;
+    margin: 15px auto;
+}
+.images1{display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+padding: 50px;;
+
+}
+.images1 img{
+    
+    width: 100%;
+    margin: 15px auto;
+
+}
+.images1 a{
+    text-decoration: none;
+    font-size:small;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+    font-family: 'american_captainregular';
+}
+.youtube{
+    margin-left: 50px;
+}
+.ythead{
+    text-align: center;
+    margin: 20px;
+    font-family: 'american_captainregular';
+
+}
+
+
