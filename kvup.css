@@ -351,3 +351,35 @@ padding: 50px;;
 }
 
 
+.man{
+     grid-column: span 1;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 56px;
+    
+}
+.man img{
+    border-radius: 50%;
+    background-color: white;
+    max-width: 129px;
+    margin: 20px;
+}
+.man h5{
+    color: #7eb244;
+    padding: 10px;
+}
+.man h4{
+    padding: 10px;
+}
+.message1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.manimg{
+    background-color: white;
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+    border-left: 1px solid green ;
+}
