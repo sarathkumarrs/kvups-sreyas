@@ -290,3 +290,42 @@ h4{
 .wb{
     border-right: 0;
 }
+.pathu{
+    padding: 40px;
+}
+.kochu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 30px;
+}
+.circle{
+    background-color: #7eb244;
+    border-radius: 50%;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.kochu h4{
+    font-size: 20px;
+}
+.vinu{
+    background-image: url(https://kvups.in/images/acivities.jpg);
+    background-size: cover;
+    padding: 125px 40px;
+}
+.vinu h3{
+    text-align: left;
+    padding: 45px;
+    color: white;
+}
+.willi{
+    display: flex;
+    padding: 0 50px;
+}
+
+.sarath{
+    background-color: white;
+    padding: 25px;
+
+}
