@@ -35,8 +35,9 @@ h3{
     text-align: center;
     height: 50px;
     font-size: 30px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    line-height: 40px;
+    padding-bottom: 40px;
+    color: #484653;
 }
 h3 span{
     color: #7eb244;
@@ -118,10 +119,10 @@ h3 span{
     color: white;
 }
 .red{
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #7eb244, #43C6AC);
-    border-radius: 10px;
+    border-radius: 20px;
     width: fit-content;
 }
 .red a{
@@ -156,6 +157,7 @@ h4 span{
 h4{
     font-size: 25px;
     line-height: 30px;
+    color: #484653;
 }
 .photo img{
     width: 100%;
@@ -174,9 +176,9 @@ h4{
 .view{
     margin: 10px auto;
     background-color: #7eb244;
-    padding: 5px;
+    padding: 10px;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .view a{
@@ -328,4 +330,49 @@ h4{
     background-color: white;
     padding: 25px;
 
+}
+.vid{
+    padding: 40px;
+}
+.deo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.hyp{
+    grid-column: span 2;
+    text-align: center;
+}
+.hyp img{
+    padding: 10px;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.map iframe{
+    width: 100%;
+}
+.map{
+    width: 100%;
+}
+.address{
+    text-align: right;
+}
+.address h3{
+    text-align: right;
+    padding-right: 200px;
+}
+.address ul{
+    direction: rtl;
+    gap: 20px;
+    padding-right: 200px;
+}
+#phone{
+    list-style-image: url(./images/cont1.png);
+}
+#mail{
+    list-style-image: url(./images/cont2.png);
+}
+#pin{
+    list-style-image: url(./images/loc.png);
 }
