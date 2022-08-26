@@ -3,7 +3,9 @@
     margin: 0;
 }
 body{
-    font-size: 13px;
+        font-family: 'nunitoregular', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555;
     line-height: 20px;
 }
 a{
@@ -35,11 +37,14 @@ h3{
     text-align: center;
     height: 50px;
     font-size: 30px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    font-weight: bolder;
+    line-height: 40px;
+    padding-bottom: 40px;
+    color:#555;
 }
 h3 span{
     color: #7eb244;
+    font-weight: bolder;
 }
 .note{
     padding: 5px;
@@ -67,6 +72,12 @@ h3 span{
 
 .info{
     display: flex;
+    margin-bottom: 30px;
+}
+.info img{
+    width: 100%;
+    height: 374px;
+
 }
 .welcome{
     text-align: right;
@@ -77,6 +88,9 @@ h3 span{
 .welcome h3{
     text-align: right;
     line-height: 40px;
+    font-weight: bolder;
+    color: #484653 !important;
+
 }
 .welcome p{
     padding-top: 40px;
@@ -118,10 +132,10 @@ h3 span{
     color: white;
 }
 .red{
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #7eb244, #43C6AC);
-    border-radius: 10px;
+    border-radius: 20px;
     width: fit-content;
 }
 .red a{
@@ -135,7 +149,7 @@ h3 span{
     margin: 40px;
 }
 .green{
-    grid-column: span 2;
+    grid-column: span 3;
 }
 .green img{
     width: 100%;
@@ -156,6 +170,7 @@ h4 span{
 h4{
     font-size: 25px;
     line-height: 30px;
+    color: #484653;
 }
 .photo img{
     width: 100%;
@@ -174,9 +189,9 @@ h4{
 .view{
     margin: 10px auto;
     background-color: #7eb244;
-    padding: 5px;
+    padding: 10px;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .view a{
@@ -251,7 +266,8 @@ h4{
     padding: 30px;
 }
 .message{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     background-color: #f5f5f5;
     text-align: center;
 }
@@ -268,15 +284,122 @@ h4{
 .white{
     background-image: url(https://kvups.in/images/countdown-bg.jpg);
     background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .black{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
+    padding: 30px;
 }
 .bw h4 span{
     color: white;
 }
 .bw h4{
     color: white;
+}
+#grey{
+    background-color: #484653;
+}
+.bw{
+    box-sizing: border-box;
+    border-right: 2px solid white;
+}
+.wb{
+    border-right: 0;
+}
+.pathu{
+    padding: 40px;
+}
+.kochu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 30px;
+}
+.circle{
+    background-color: #7eb244;
+    border-radius: 50%;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.kochu h4{
+    font-size: 20px;
+}
+.vinu{
+    background-image: url(https://kvups.in/images/acivities.jpg);
+    background-size: cover;
+    padding: 125px 40px;
+}
+.vinu h3{
+    text-align: left;
+    padding: 45px;
+    color: white;
+}
+.willi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 50px;
+}
+.willi img{width: 100%;}
+#wil{ display: none;}
+
+.sarath{
+    background-color: white;
+    padding: 25px;
+
+}
+.vid{
+    padding: 40px;
+}
+.deo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.hyp{
+    grid-column: span 2;
+    text-align: center;
+}
+.hyp img{
+    padding: 10px;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.map iframe{
+    width: 100%;
+}
+.map{
+    width: 100%;
+}
+.address{
+    text-align: right;
+    background: #f5f5f5;
+}
+.address h3{
+    text-align: right;
+    padding-right: 200px;
+    color: #484653;
+    padding-top: 15px;
+}
+.iconic a{
+    text-decoration: none;
+    color: #555 !important;
+}
+.address ul{
+    direction: rtl;
+    gap: 20px;
+    padding-right: 200px;
+}
+#phone{
+    list-style-image: url(./images/cont1.png);
+}
+#mail{
+    list-style-image: url(./images/cont2.png);
+}
+#pin{
+    list-style-image: url(./images/loc.png);
 }
