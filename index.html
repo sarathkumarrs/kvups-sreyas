@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title> KVUPS | HOME</title>
+    <link rel="icon" href="./images/pagelogo.png" type="image/icon type">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./kvup.css">
     <script src="https://kit.fontawesome.com/4552cffaa3.js" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/css/lightgallery-bundle.min.css" />
+
 </head>
 <body>
     <div id="mynav" class="overlay"> 
@@ -26,7 +29,14 @@
     </div>
    
 </div>
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/lightgallery.umd.min.js"></script>
+<!-- Or use the minified version -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/lightgallery.min.js"></script>
+
+<!-- lightgallery plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/plugins/zoom/lg-zoom.umd.min.js"></script>
+
     
 <header class="fhead">
 
@@ -64,7 +74,12 @@
 
     
     
-
+ <section id="slideshow" class="bgimg">
+     <br><br><br><br> <br><br><br><br><h1> KVUPS <span id="pan"> PANGODE</span></h1>
+    <p>K V U P S is an aided school established in 1964 at Palode sub-district, Trivandrum.</p>
+    <div class="view"><a href="./index.html#info">Explore</a></div>
+    
+ </section>
 
 
     <section class="info" id="info">
@@ -98,7 +113,7 @@
         <div class="academy">
             <h3>SYSTEMATIC ACADEMIC <br><span>ACTIVITIES</span></h3><br><br>
             <p>The annual plan which is prepared before the beginning of the academic year by the PTA and SRG helps in the systematic functioning of the school.</p>
-            <div class="red"><a href=""> Read more</a></div>
+            <div class="red"><a href="./acadamics.html"> Read more</a></div>
         </div>
         <div id="kids">
             <img src="https://kvups.in/images/kids.png" alt="">
@@ -108,7 +123,7 @@
         <br>
         <h3>OUR <span>ACHIVEMENTS</span></h3>
         <section class="majorhead">
-            <div class="major">
+            <div  id="majorh" class="major">
                 <div class="sub1">
                     <img src="./images/our-achievements.jpg">
                     <h4> Mikavu  <br><br><br>
@@ -116,7 +131,7 @@
                         </div>
                         <p>Our school is certified as the best school by the program 'Mikavu' by SSA</p>
                         </div>
-                        <div class="major">
+                        <div  id="majorh" class="major">
                 <div class="sub1">
                     <img src="./images/our-achievements.jpg">
                     <h4>Environmental <br><br>Friendly<br><br>
@@ -129,7 +144,7 @@
                     visit and  Child-friendly school award by National 
                     Council for Child Development,last year. </p>
             </div>
-            <div class="major">
+            <div   id="majorh" class="major">
                 <div class="sub1">
                     <img src="./images/our-achievements.jpg">
                     <h4> ISO<br><br><br>
@@ -141,7 +156,8 @@
     </section>
     <section class="grey">
         <h3>OUR <span>GALLERY</span></h3>
-        <div class="photo">
+        <div  id="lightgallery" class="photo">
+          
             <img src="https://kvups.in/images/photo1.jpg" alt="">
             <img src="https://kvups.in/images/photo2.jpg" alt="">
             <img src="https://kvups.in/images/photo3.jpg" alt="">
@@ -154,6 +170,14 @@
         </div>
         <div class="view"><a href="./gallery.html">View More</a></div>
     </section>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            licenseKey: 'your_license_key',
+            speed: 500,
+            // ... other settings
+        });
+    </script>
     <section class="model">
         <p>Our sister Concern <br><span>Model English School Pangode</span></p>
     </section>
@@ -337,15 +361,15 @@
     </section>
     <section class="location">
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.37549381651544!2d76.20411976564624!3d10.260945745723939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081c4721824bfb%3A0xa6cdd9bb65ed4d2f!2sJ%26J%20English%20Medium%20School!5e0!3m2!1sen!2sin!4v1661416237388!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.278134934746!2d76.95403841411485!3d8.759880695559389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05c4e702c0538f%3A0x685a553c4834983b!2sKVUP%20School%20Pazhavila%2C%20Pangode!5e0!3m2!1sen!2sin!4v1661841167979!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="address" id="address">
             <h3>LOCATION AND <br><span>CONTACT</span></h3>
             <div class="iconic">
                 <ul>
-                    <li id="phone"><a href="tel:+91 9745 232 344">9745232344</a></li>
-                    <li id="mail"><a href="mail:kvupspangode@gmail.com">kvupspangode@gmail.com</a></li>
-                    <li id="pin">K V U P S pazhavila <br> Pangode <br> Thiruvanamthapuram<br> pin-695609 </li>
+                    <li id="phone"><a href="tel:+91 9745 232 344">9745232344 </a></li><br>
+                    <li id="mail"><a href="mail:kvupspangode@gmail.com">kvupspangode@gmail.com</a></li><br>
+                    <li id="pin">K V U P S pazhavila <br> Pangode <br> Thiruvanamthapuram<br> pin-695609 </li><br>
                 </ul>
             </div>
         </div>
@@ -381,6 +405,7 @@
     </footer>
 
     <script src="./x.js"></script>
+    
      
 </body>
 </html>
