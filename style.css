@@ -53,23 +53,6 @@ h3 span{
     text-align: center;
     padding-bottom: 20px;
 }
-@media screen and (max-width:900px){
-    .school{
-        grid-column: span 3;
-    }
-    .events{
-        margin: 30px;
-    }
-}
-@media screen and (max-width:600px){
-    .school{
-        grid-column: span 6;
-    }
-}
-
-
-
-
 .info{
     display: flex;
     margin-bottom: 30px;
@@ -393,13 +376,33 @@ h4{
     direction: rtl;
     gap: 20px;
     padding-right: 200px;
+    
+}
+.iconic li{
+    margin-bottom: 30px;
 }
 #phone{
     list-style-image: url(./images/cont1.png);
+
 }
 #mail{
     list-style-image: url(./images/cont2.png);
 }
 #pin{
     list-style-image: url(./images/loc.png);
+}
+/* just a comment */
+
+@media screen and (max-width:900px){
+    .school{
+        grid-column: span 3;
+    }
+    .events{
+        margin: 30px;
+    }
+}
+@media screen and (max-width:600px){
+    .school{
+        grid-column: span 6;
+    }
 }
