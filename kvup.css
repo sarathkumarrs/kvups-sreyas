@@ -176,12 +176,17 @@ padding-bottom: 20px;}
     background-size: cover;
     height: 260px;
     color: white;
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-position: center;
 
  }
  .spot h1{
-    padding-top: 109px;
+   
+    text-align: center;
+    align-self: center;
+    
     font-size: 40px;
  }
 
@@ -221,6 +226,9 @@ padding-bottom: 20px;}
         height: 300px;
         padding-right: 110px;
         padding-left: 150px;
+    }
+    .colorbox{
+        line-height: 18px;
     }
     .welcome h3{padding-left: 90px;}
     .pink{grid-column: span 2;}
@@ -487,15 +495,18 @@ padding: 50px;;
     grid-template-columns: repeat(3,1fr);
 }
 /* frontpage image autochamging */
-.bgimg{font-size: larger;
+.bgimg{ display: flex;
+     flex-direction: column;
+
+    font-size: 19px;
+justify-content: center;
 text-align: center;
-justify-items: center;
 height:635px;
 color: wheat;}
 .bgimg h1{
     padding-bottom: 30px;
     padding-top: 20px;
-    font-size: 38px;
+    font-size: 50px;
     color: white; 
     font-weight: bolder;
      font-family: 'open_sansbold';
@@ -505,7 +516,7 @@ color: wheat;}
     position: relative;
     top: 0;
     width: 100%;
-    height: 450px;
+    height: 526px;
     background: rgba(0,0, 0, 0.7) url(https://kvups.in/images/spotlight.jpg);
     background-blend-mode: darken;
     animation-name: one;
